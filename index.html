@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Прокат сноубордов на курортах России</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">SNOW<span>RENT</span></div>
+        <nav>
+          <a href="index.html" class="active">Главная</a>
+          <a href="sheregesh.html">Шерегеш</a>
+          <a href="elbrus.html">Эльбрус</a>
+          <a href="krasnaya-polyana.html">Красная Поляна</a>
+          <a href="kirovsk.html">Кировск</a>
+          <a href="dombay.html">Домбай</a>
+          <a href="how-to-choose.html">Как выбрать сноуборд</a>
+          <a href="how-to-ride.html">Как кататься</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Прокат сноубордов на лучших курортах России</h1>
+
+      <!-- Карусель с подписями -->
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-slide">
+            <img src="images/sheregesh.png" alt="Шерегеш" />
+            <div class="slide-caption">Шерегеш | Гора Зелёная</div>
+          </div>
+          <div class="carousel-slide">
+            <img src="images/elbrus.png" alt="Эльбрус" />
+            <div class="slide-caption">Эльбрус | Самая высокая гора Европы</div>
+          </div>
+          <div class="carousel-slide">
+            <img src="images/krasnaya-polyana.png" alt="Красная Поляна" />
+            <div class="slide-caption">Красная Поляна | Роза Хутор</div>
+          </div>
+          <div class="carousel-slide">
+            <img src="images/kirovsk.png" alt="Кировск" />
+            <div class="slide-caption">Кировск | Хибины</div>
+          </div>
+          <div class="carousel-slide">
+            <img src="images/dombay.png" alt="Домбай" />
+            <div class="slide-caption">Домбай | Вершины Кавказа</div>
+          </div>
+        </div>
+        <button class="carousel-btn prev">❮</button>
+        <button class="carousel-btn next">❯</button>
+      </div>
+      <!-- Блок текста -->
+      <div class="text-block">
+        <p>
+          <strong>SnowRent</strong> — сервис проката сноубордов и горного
+          снаряжения на лучших курортах России. Мы работаем в Шерегеше,
+          Приэльбрусье, Красной Поляне, Кировске и Домбае. Более 200 современных
+          сноубордов для взрослых и детей, ботинки, шлемы и защита — всё, что
+          нужно для идеального катания.
+        </p>
+        <p>
+          Почему выбирают нас? Мы доставляем снаряжение прямо к подъёмнику,
+          подбираем доску под ваш рост и уровень катания, а также даём скидку
+          10% при бронировании онлайн. Просто выберите курорт, модель и даты —
+          мы подготовим всё заранее.
+        </p>
+      </div>
+
+      <!-- Карточки популярных курортов -->
+      <h2 style="margin-top: 1rem">Популярные курорты</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <img src="images/sheregesh-card.png" alt="Шерегеш" />
+          <h3>Шерегеш</h3>
+          <p>Гора Зелёная, пушистый снег, сезон до мая.</p>
+          <span class="price">от 2000 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+        <div class="card">
+          <img src="images/elbrus-card.png" alt="Эльбрус" />
+          <h3>Эльбрус</h3>
+          <p>Высота до 3800 м, трассы Чегет и Азау.</p>
+          <span class="price">от 2700 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+        <div class="card">
+          <img src="images/krasnaya-polyana-card.png" alt="Красная Поляна" />
+          <h3>Красная Поляна</h3>
+          <p>Роза Хутор, Газпром, Лаура — олимпийское наследие.</p>
+          <span class="price">от 2800 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+        <div class="card">
+          <img src="images/kirovsk-card.png" alt="Кировск" />
+          <h3>Кировск (Хибины)</h3>
+          <p>Снег с ноября по июнь, фрирайд-рай.</p>
+          <span class="price">от 2300 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+        <div class="card">
+          <img src="images/dombay-card.png" alt="Домбай" />
+          <h3>Домбай</h3>
+          <p>Живописные вершины, бюджетный отдых.</p>
+          <span class="price">от 1700 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Попап -->
+    <div id="orderModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Забронировать сноуборд</h3>
+        <form id="orderForm">
+          <input type="text" placeholder="Ваше имя" required />
+          <input type="tel" placeholder="Телефон" required />
+          <select>
+            <option>Шерегеш</option>
+            <option>Эльбрус</option>
+            <option>Красная Поляна</option>
+            <option>Кировск</option>
+            <option>Домбай</option>
+          </select>
+          <textarea rows="2" placeholder="Даты и пожелания"></textarea>
+          <button type="submit">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="contacts">
+        <p>📞 +7 (999) 123-45-67</p>
+        <p>✉️ info@snowrent.ru</p>
+        <p>📍 Нижний Новгород, Казанское шоссе, 18</p>
+      </div>
+      <p>© 2026 SnowRent. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

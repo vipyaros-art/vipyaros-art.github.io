@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Прокат в Кировске (Хибины) | SnowRent</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">SNOW<span>RENT</span></div>
+        <nav>
+          <a href="index.html">Главная</a>
+          <a href="sheregesh.html">Шерегеш</a>
+          <a href="elbrus.html">Эльбрус</a>
+          <a href="krasnaya-polyana.html">Красная Поляна</a>
+          <a href="kirovsk.html" class="active">Кировск</a>
+          <a href="dombay.html">Домбай</a>
+          <a href="how-to-choose.html">Как выбрать сноуборд</a>
+          <a href="how-to-ride.html">Как кататься</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Прокат сноубордов в Кировске (Хибины)</h1>
+
+      <div class="text-block">
+        <p>
+          <strong>Кировск</strong> — столица Хибин, легендарное место для
+          фрирайда и скитура. Курорт «Большой Вудъявр» работает с ноября по
+          июнь. Благодаря географическому положению и ветрам с Баренцева моря,
+          здесь выпадает до 6 метров снега за сезон. Хибины славятся вне
+          трассовым катанием и уникальными ландшафтами — горные озёра, плато и
+          кулуары.
+        </p>
+        <p>
+          Наш прокат находится прямо у подножия канатной дороги. У нас большой
+          выбор сноубордов для фрирайда (широкие, с рокером) и карвинга. Также
+          выдаём лавинные датчики, щупы и лопаты для выездов на бэккантри. Для
+          групп от 4 человек — бесплатный гид на полдня.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card">
+          <img
+            src="https://placehold.co/300x200/0f766e/white?text=Khibiny"
+            alt="Хибины"
+          />
+          <h3>Пакет "Хибины"</h3>
+          <p>Сноуборд + ботинки + ски-пасс в подарок.</p>
+          <span class="price">2300 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://placehold.co/300x200/0d9488/white?text=Freeride"
+            alt="Фрирайд"
+          />
+          <h3>Фрирайд-пакет</h3>
+          <p>Широкий сноуборд + лавинное снаряжение.</p>
+          <span class="price">3500 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://placehold.co/300x200/14b8a6/white?text=Group"
+            alt="Группа"
+          />
+          <h3>Групповой заказ</h3>
+          <p>Скидка 25% при заказе от 4 человек.</p>
+          <span class="price">от 1800 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+      </div>
+    </main>
+
+    <div id="orderModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Забронировать сноуборд</h3>
+        <form>
+          <input type="text" placeholder="Ваше имя" required />
+          <input type="tel" placeholder="Телефон" required />
+          <select>
+            <option>Кировск</option>
+            <option>Эльбрус</option>
+            <option>Роза Хутор</option>
+            <option>Фристайл</option>
+            <option>Карвинг</option>
+          </select>
+          <textarea rows="2" placeholder="Даты и пожелания"></textarea>
+          <button type="submit">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="contacts">
+        <p>📞 +7 (999) 123-45-67</p>
+        <p>✉️ info@snowrent.ru</p>
+        <p>📍 Нижний Новгород, Казанское шоссе, 18</p>
+      </div>
+      <p>© 2026 SnowRent. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

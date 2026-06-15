@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Прокат в Домбае | SnowRent</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">SNOW<span>RENT</span></div>
+        <nav>
+          <a href="index.html">Главная</a>
+          <a href="sheregesh.html">Шерегеш</a>
+          <a href="elbrus.html">Эльбрус</a>
+          <a href="krasnaya-polyana.html">Красная Поляна</a>
+          <a href="kirovsk.html">Кировск</a>
+          <a href="dombay.html" class="active">Домбай</a>
+          <a href="how-to-choose.html">Как выбрать сноуборд</a>
+          <a href="how-to-ride.html">Как кататься</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Прокат сноубордов в Домбае</h1>
+
+      <div class="text-block">
+        <p>
+          <strong>Домбай</strong> — живописный курорт в Карачаево-Черкесии, у
+          подножия Главного Кавказского хребта. Трассы проложены на высоте от
+          1600 до 3000 метров, с которых открываются невероятные виды на вершины
+          Эрцог, Белалакай и Софийские озёра. Домбай выбирают за демократичные
+          цены, отсутствие очередей и красивейшую природу.
+        </p>
+        <p>
+          SnowRent в Домбае — это бюджетный прокат без потери качества. Более 30
+          сноубордов для начинающих и опытных райдеров, детские комплекты и
+          мягкие ботинки. Особенность курорта — длинные, пологие трассы, отлично
+          подходящие для обучения. Для новичков — первый час инструктора в
+          подарок при бронировании от 2 дней.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card">
+          <img
+            src="https://placehold.co/300x200/7c2d12/white?text=Dombay"
+            alt="Домбай"
+          />
+          <h3>Пакет "Эконом"</h3>
+          <p>Сноуборд + ботинки. Без выходных.</p>
+          <span class="price">1700 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://placehold.co/300x200/9a3412/white?text=Peak"
+            alt="Пик"
+          />
+          <h3>Пакет "Вершина"</h3>
+          <p>Профессиональная модель + трансфер.</p>
+          <span class="price">2600 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://placehold.co/300x200/c2410c/white?text=Weekend"
+            alt="Выходные"
+          />
+          <h3>Пакет "Уикенд"</h3>
+          <p>Прокат на 3 дня со скидкой 15%.</p>
+          <span class="price">4400 ₽/3 дня</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+      </div>
+    </main>
+
+    <div id="orderModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Забронировать сноуборд</h3>
+        <form>
+          <input type="text" placeholder="Ваше имя" required />
+          <input type="tel" placeholder="Телефон" required />
+          <select>
+            <option>Домбай</option>
+            <option>Шерегеш</option>
+            <option>Эльбрус</option>
+            <option>Красная Поляна</option>
+            <option>Кировск</option>
+          </select>
+          <textarea rows="2" placeholder="Даты и пожелания"></textarea>
+          <button type="submit">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="contacts">
+        <p>📞 +7 (999) 123-45-67</p>
+        <p>✉️ info@snowrent.ru</p>
+        <p>📍 Нижний Новгород, Казанское шоссе, 18</p>
+      </div>
+      <p>© 2026 SnowRent. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

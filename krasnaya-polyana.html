@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Прокат в Красной Поляне | SnowRent</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">SNOW<span>RENT</span></div>
+        <nav>
+          <a href="index.html">Главная</a>
+          <a href="sheregesh.html">Шерегеш</a>
+          <a href="elbrus.html">Эльбрус</a>
+          <a href="krasnaya-polyana.html" class="active">Красная Поляна</a>
+          <a href="kirovsk.html">Кировск</a>
+          <a href="dombay.html">Домбай</a>
+          <a href="how-to-choose.html">Как выбрать сноуборд</a>
+          <a href="how-to-ride.html">Как кататься</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Прокат сноубордов в Красной Поляне</h1>
+
+      <div class="text-block">
+        <p>
+          <strong>Красная Поляна</strong> — современный горный кластер в Сочи,
+          построенный к Олимпиаде 2014. Здесь три главных курорта: «Роза Хутор»,
+          «Газпром» и «Лаура». Трассы всех уровней сложности, от пологих
+          «зелёных» до олимпийских «чёрных», высокоскоростные гондольные
+          подъёмники и отличная инфраструктура — рестораны, отели и спа-центры
+          прямо на склонах.
+        </p>
+        <p>
+          SnowRent на Красной Поляне предлагает премиальные модели сноубордов:
+          Burton, Jones, Lib Tech. Мы находимся рядом с нижней станцией канатной
+          дороги «Роза Хутор». Для наших клиентов — бесплатная примерка накануне
+          и скидка 15% при аренде от 3 дней.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card">
+          <img
+            src="https://placehold.co/300x200/0f766e/white?text=Rosa"
+            alt="Роза Хутор"
+          />
+          <h3>Пакет "Роза Хутор"</h3>
+          <p>Сноуборд + ботинки + ски-пасс на день.</p>
+          <span class="price">2800 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://placehold.co/300x200/0d9488/white?text=Gazprom"
+            alt="Газпром"
+          />
+          <h3>Пакет "Газпром"</h3>
+          <p>Карвинговая модель + шлем + защита.</p>
+          <span class="price">3300 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://placehold.co/300x200/14b8a6/white?text=Laura"
+            alt="Лаура"
+          />
+          <h3>Пакет "Лаура"</h3>
+          <p>Для начинающих: борд + инструктор 1 час.</p>
+          <span class="price">3500 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+      </div>
+    </main>
+
+    <div id="orderModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Забронировать сноуборд</h3>
+        <form>
+          <input type="text" placeholder="Ваше имя" required />
+          <input type="tel" placeholder="Телефон" required />
+          <select>
+            <option>Красная Поляна</option>
+            <option>Шерегеш</option>
+            <option>Эльбрус</option>
+            <option>Кировск</option>
+            <option>Домбай</option>
+          </select>
+          <textarea rows="2" placeholder="Даты и пожелания"></textarea>
+          <button type="submit">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="contacts">
+        <p>📞 +7 (999) 123-45-67</p>
+        <p>✉️ info@snowrent.ru</p>
+        <p>📍 Нижний Новгород, Казанское шоссе, 18</p>
+      </div>
+      <p>© 2026 SnowRent. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

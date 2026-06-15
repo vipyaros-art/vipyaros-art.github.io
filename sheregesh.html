@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прокат в Шерегеше | SnowRent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">SNOW<span>RENT</span></div>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="sheregesh.html" class="active">Шерегеш</a>
+                <a href="elbrus.html">Эльбрус</a>
+                <a href="krasnaya-polyana.html">Красная Поляна</a>
+                <a href="kirovsk.html">Кировск</a>
+                <a href="dombay.html">Домбай</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Прокат сноубордов в Шерегеше</h1>
+
+        <div class="text-block">
+            <p><strong>Шерегеш</strong> — это сибирский флагман горных лыж и сноуборда. Курорт расположен в Кемеровской
+                области, у подножия горы Зелёная. Сезон здесь длится с ноября по май, а пушистый снег «Шерегеш-пухр»
+                известен далеко за пределами России. Трассы разной сложности, современные кресельные и бугельные
+                подъёмники, а также легендарные фристайд-зоны ждут райдеров любого уровня.</p>
+            <p>SnowRent в Шерегеше предлагает более 50 сноубордов: от гибких парковых досок до жёстких карвинговых
+                моделей. Работаем с доставкой к подъёмникам «Сектор А» и «Сектор Е». Забронируйте снаряжение за 2 дня —
+                получите термобельё в подарок.</p>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card">
+                <img src="https://placehold.co/300x200/1e3a8a/white?text=Sheregesh" alt="Шерегеш">
+                <h3>Пакет "Стандарт"</h3>
+                <p>Сноуборд + ботинки + крепления.</p>
+                <span class="price">2000 ₽/день</span>
+                <button class="btn-popup">Забронировать</button>
+            </div>
+            <div class="card">
+                <img src="https://placehold.co/300x200/2563eb/white?text=Zelenaya" alt="Зелёная">
+                <h3>Пакет "Зелёная"</h3>
+                <p>Premium сноуборд + доставка к подъёмнику.</p>
+                <span class="price">3000 ₽/день</span>
+                <button class="btn-popup">Забронировать</button>
+            </div>
+            <div class="card">
+                <img src="https://placehold.co/300x200/3b82f6/white?text=Group" alt="Группа">
+                <h3>Групповой пакет</h3>
+                <p>Скидка 20% для компании от 4 человек.</p>
+                <span class="price">от 1600 ₽/день</span>
+                <button class="btn-popup">Забронировать</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="orderModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Забронировать сноуборд</h3>
+            <form>
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <select>
+                    <option>Шерегеш</option>
+                    <option>Эльбрус</option>
+                    <option>Красная Поляна</option>
+                    <option>Кировск</option>
+                    <option>Домбай</option>
+                </select>
+                <textarea rows="2" placeholder="Даты и пожелания"></textarea>
+                <button type="submit">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contacts">
+            <p>📞 +7 (999) 123-45-67</p>
+            <p>✉️ info@snowrent.ru</p>
+            <p>📍 Нижний Новгород, Казанское шоссе, 18</p>
+        </div>
+        <p>© 2026 SnowRent. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

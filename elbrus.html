@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Прокат на Эльбрусе | SnowRent</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">SNOW<span>RENT</span></div>
+        <nav>
+          <a href="index.html">Главная</a>
+          <a href="sheregesh.html">Шерегеш</a>
+          <a href="elbrus.html" class="active">Эльбрус</a>
+          <a href="krasnaya-polyana.html">Красная Поляна</a>
+          <a href="kirovsk.html">Кировск</a>
+          <a href="dombay.html">Домбай</a>
+          <a href="how-to-choose.html">Как выбрать сноуборд</a>
+          <a href="how-to-ride.html">Как кататься</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Прокат сноубордов на Эльбрусе</h1>
+
+      <div class="text-block">
+        <p>
+          <strong>Эльбрус</strong> — самая высокая гора Европы (5642 м). Курорты
+          Приэльбрусья — это трассы на склонах Эльбруса и Чегета. Сезон катания
+          здесь один из самых длинных в стране: с ноября по май, а на высоте
+          3500-3800 метров можно кататься даже в июне. Опытные райдеры выбирают
+          Чегет за его крутые склоны и фрирайд-зоны, начинающие — пологие трассы
+          Азау и поляну Гарабаши.
+        </p>
+        <p>
+          Наш пункт проката находится в посёлке Терскол. Мы подготовили
+          специальные высокогорные комплекты: сноуборды с широкой талией для
+          глубокого снега, лавинное снаряжение для бэккантри и тёплые ботинки
+          для экстремальных температур. Доставка на канатные дороги — бесплатно.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card">
+          <img
+            src="https://placehold.co/300x200/1e3a8a/white?text=Elbrus"
+            alt="Эльбрус"
+          />
+          <h3>Пакет "Высота"</h3>
+          <p>Сноуборд + ботинки + шлем. Доставка к канатке.</p>
+          <span class="price">2700 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://placehold.co/300x200/2563eb/white?text=Cheget"
+            alt="Чегет"
+          />
+          <h3>Пакет "Чегет"</h3>
+          <p>Для опытных райдеров. Карвинговая модель + защита.</p>
+          <span class="price">3200 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://placehold.co/300x200/3b82f6/white?text=Azau"
+            alt="Азау"
+          />
+          <h3>Семейный пакет</h3>
+          <p>2 сноуборда + инструктор на 2 часа.</p>
+          <span class="price">5000 ₽/день</span>
+          <button class="btn-popup">Забронировать</button>
+        </div>
+      </div>
+    </main>
+
+    <div id="orderModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Забронировать сноуборд</h3>
+        <form>
+          <input type="text" placeholder="Ваше имя" required />
+          <input type="tel" placeholder="Телефон" required />
+          <select>
+            <option>Эльбрус</option>
+            <option>Фристайл</option>
+            <option>Карвинг</option>
+            <option>Роза Хутор</option>
+            <option>Кировск</option>
+          </select>
+          <textarea rows="2" placeholder="Даты и пожелания"></textarea>
+          <button type="submit">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="contacts">
+        <p>📞 +7 (999) 123-45-67</p>
+        <p>✉️ info@snowrent.ru</p>
+        <p>📍 Нижний Новгород, Казанское шоссе, 18</p>
+      </div>
+      <p>© 2026 SnowRent. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
